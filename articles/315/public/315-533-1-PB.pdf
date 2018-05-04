@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Language" content="en-us">
+     <title>SUNY Oneonta</title>
+    <link type="text/css" rel="stylesheet" media="all" href="//www.oneonta.edu/home/css/fonts.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="//www.oneonta.edu/home/css/retrofit.css" />
+    <!--[if IE 8]> <link type="text/css" rel="stylesheet" media="all" href="//www.oneonta.edu/home/css/ie8.css" /> <![endif]-->
+    <!--[if IE 7]> <link type="text/css" rel="stylesheet" media="all" href="//www.oneonta.edu/home/css/ie7-retrofit.css" /> <![endif]-->
+    <!--[if IE 6]> <link type="text/css" rel="stylesheet" media="all" href="//www.oneonta.edu/home/css/ie6.css" /> <![endif]-->
+    <link rel="shortcut icon" type="image/x-ico" href="//www.oneonta.edu/homeimages/favicon.ico" />
+    <script type="text/javascript" src="//www.oneonta.edu/home/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="//www.oneonta.edu/home/js/preloader.js"></script>
+    <script type="text/javascript" src="//www.oneonta.edu/home/js/dropdowns.js"></script>
+    <script type="text/javascript" src="//www.oneonta.edu/home/js/newsjs.js"></script>
+	<script type="text/javascript" src="//www.oneonta.edu/home/js/search.js"></script>
+
+</head>
+<body class="secondary retrofit">
+<div id="page-wrapper">
+<div id="main-wrapper">
+
+
+    	<div id="header">
+      		<div id="header-content-wrapper">
+        		<div id="page-logo"><a href="http://www.oneonta.edu/home/default.asp" title="" rel="home"  onClick="javascript: pageTracker._trackPageview('/outbound/header/SUNYOneonta');"><img src="http://www.oneonta.edu/home/images/logo.png" alt="SUNY Oneonta" /></a></div>
+        		<div id="navigation">
+					<div id="primary-links">
+						<ul id="main-menu">
+					 		<li class="menu first"><a title="Prospective Students" href="http://www.oneonta.edu/home/prospective-students.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/prospectivestudents');">Prospective Students</a></li>
+					 		<li class="separator">/</li>
+					 		<li class="menu"><a title="Parents &amp; Families" href="http://www.oneonta.edu/home/parents-families.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/parentsandfamilies');">Parents &amp; Families</a></li>
+					 		<li class="separator">/</li>
+					 		<li class="menu"><a title="Alumni &amp; Friends" href="http://www.oneonta.edu/home/alumni.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/alumniandfriends');">Alumni &amp; Friends</a></li>
+					 		<li class="separator">/</li>
+							<li class="menu last"><a title="myOneonta" href="https://my.oneonta.edu" onClick="javascript:pageTracker._trackPageview('/outbound/header/myOneonta');">myOneonta</a></li>
+						</ul>
+					</div><!-- end primary-links -->
+					<div id="search-box">
+						
+						
+                <form onSubmit="return dosearch();" name="searchform" id="search-theme-form">
+					
+                    <div class="Query">
+                      <div class="search-form" align="left"> 
+						<p>
+                          <input type="text" name="searchterms" id="edit-search-theme-form-1" size="15" maxlength="128" value="SEARCH" onfocus="if (this.value == 'SEARCH') this.value = ''" onblur="if (this.value == '') this.value = 'SEARCH'" class="form-text" />
+                          <input type="image"  name="search" src="http://www.oneonta.edu/home/images/search-button.jpg" alt="Search" value="Go" id="edit-submit" class="form-submit" />
+						  <input name="sengines" type="radio" value="http://search.oneonta.edu/search?q=" checked />Site &nbsp;
+						  <input name="sengines" type="radio" value="http://webservices.oneonta.edu/produc/suco_directory_search.list?first_name=&last_name=" />Directory (Last Name)
+                        </p>
+                      </div>
+                    </div>
+                </form>
+					</div><!-- end search-box -->
+
+          			<div id="secondary-links">
+          				<ul id="main-menu">
+							<li class="menu first"><a title="About Oneonta" href="http://www.oneonta.edu/home/about.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/aboutoneonta');">About Oneonta</a>
+								<ul class="dropdown">
+                                    <li><a href="http://www.oneonta.edu/mvsp/" onClick="javascript: pageTracker._trackPageview('/outbound/header/mvsp');">Mission, Vision, Plan</a></li>
+                                    <li><a href="http://www.oneonta.edu/strategicplan/" onClick="javascript: pageTracker._trackPageview('/outbound/header/StrategicPlan');">Strategic Plan </a></li>
+                                    <li><a href="http://www.oneonta.edu/home/fastfacts.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/fastfacts');">Fast Facts</a></li>
+                                    <li><a href="http://www.oneonta.edu/home/offices.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/collegeoffices');">College Offices</a></li>
+                                    <li><a href="http://www.oneonta.edu/president/" onClick="javascript: pageTracker._trackPageview('/outbound/header/presidentsoffice');">President's Office</a></li>
+                                    <li><a href="http://webservices.oneonta.edu/produc/SUCO_DIRECTORY_MENU.SEARCH_MENU" onClick="javascript: pageTracker._trackPageview('/outbound/header/directory');">Campus Directory</a></li>
+                                    <li><a href="http://www.oneonta.edu/admin/humres/Employment_Opp/Position_openings.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/employment');">Employment</a></li>
+                                    <li><a href="http://www.oneonta.edu/tour/" onClick="javascript: pageTracker._trackPageview('/outbound/header/virtualtour');">Virtual Tour</a></li>
+									<li><a href="http://www.oneonta.edu/home/visit.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/visitcampus');">Visit the Campus</a></li>
+							  </ul>
+							</li>
+					 		<li class="separator">/</li>
+					 		<li class="menu"><a title="Admissions" href="http://www.oneonta.edu/home/admissions.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/admissions');">Admissions</a>
+					 			<ul class="dropdown">
+                                    <li><a href="http://www.oneonta.edu/development/admissions/freshmen.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/Freshmen');">Freshmen Students</a></li>
+                                    <li><a href="http://www.oneonta.edu/academics/grad-ed/" onClick="javascript: pageTracker._trackPageview('/outbound/header/gradstudents');">Graduate Students</a> </li>
+                                    <li><a href="http://www.oneonta.edu/development/admissions/Transfer.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/transferstudents');">Transfer Students</a></li>
+                                    <li><a href="http://www.oneonta.edu/academics/inted/" onClick="javascript: pageTracker._trackPageview('/outbound/header/internationalstudents');">International Students</a></li>
+                                    <li><a href="http://www.oneonta.edu/development/admissions/eop.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/eop');">EOP Students</a></li>
+                                    <li><a href="http://www.oneonta.edu/academics/conted/" onClick="javascript: pageTracker._trackPageview('/outbound/header/nondegreestudents');">Non-Degree Students</a></li>
+                                    <li><a href="http://www.oneonta.edu/development/admissions/counselors.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/schoolcounselors');">School Counselors</a></li>
+                                    <li><a href="http://www.oneonta.edu/home/apply-now.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/Applynow');">Apply Now</a></li>
+                                    <li><a href="http://www.oneonta.edu/development/admissions/meetcounselor.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/talktocounselor');">Talk to a Counselor</a></li>
+								</ul>
+				 		  </li>
+					 		<li class="separator">/</li>
+					 		<li class="menu"><a title="Cost &amp; Aid" href="http://www.oneonta.edu/home/cost-aid.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/costandaid');">Cost &amp; Aid</a>
+					 			<ul class="dropdown">
+							      <li><a href="http://www.oneonta.edu/development/finaid/" onClick="javascript: pageTracker._trackPageview('/outbound/header/financialaid');">Financial Aid Office</a> </li>
+                                  <li><a href="http://www.oneonta.edu/admin/stacct/" onClick="javascript: pageTracker._trackPageview('/outbound/header/studentaccounts');">Student Accounts Office</a></li>
+                                  <li><a href="http://www.oneonta.edu/development/admissions/scholarship.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/scholarships');">Scholarships</a></li>
+                                  <li><a href="http://www.suny.edu/howmuch/?id=14" onClick="javascript: pageTracker._trackPageview('/outbound/header/netpricecalc');">Net Price Calculator</a></li>
+                                  <li><a href="http://www.oneonta.edu/development/finaid/process.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/applyforaid');">Applying for Aid</a></li>
+                                  <li><a href="http://www.oneonta.edu/development/finaid/faq.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/faq');">FAQ</a></li>
+								</ul>
+				 		  </li>
+					 		<li class="separator">/</li>
+					 		<li class="menu last"><a title="Academics" href="http://www.oneonta.edu/home/academics.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/academics');">Academics</a>
+					 			<ul class="dropdown">
+								    <li><a href="http://www.oneonta.edu/development/admissions/academics.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/majorsandprograms');">Majors &amp; Programs</a> </li>
+                                    <li><a href="http://www.oneonta.edu/general/calendar.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/collegecalendar');">College Calendar</a></li>
+                                    <li><a href="http://www.oneonta.edu/home/academics-depts.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/academicdepartments');">Academic Departments</a></li>
+                                    <li><a href="http://www.oneonta.edu/development/advise/" onClick="javascript: pageTracker._trackPageview('/outbound/header/academicadvisement');">Academic Advisement</a></li>
+                                    <li><a href="http://www.oneonta.edu/admin/registrar/" onClick="javascript: pageTracker._trackPageview('/outbound/header/registrar');">Registrar's Office</a></li>
+                                    <li><a href="http://www.oneonta.edu/library/" onClick="javascript: pageTracker._trackPageview('/outbound/header/library');">Library</a></li>
+                                    <li><a href="http://www.oneonta.edu/academics/inted/" onClick="javascript: pageTracker._trackPageview('/outbound/header/studyabroad');">Study Abroad</a></li>
+								</ul>
+		 		      </li>
+					 		<li class="separator">/</li>
+					 		<li class="menu last"><a title="Student Life" href="http://www.oneonta.edu/home/studentlife.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/studentlife');">Student Life</a>
+					 			<ul class="dropdown">
+							    <li><a href="http://www.oneonta.edu/home/clubsorganizations.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/clubsandorganizations');">Clubs &amp; Organizations</a></li>
+									<li><a href="http://mysa.oneonta.edu/" onClick="javascript: pageTracker._trackPageview('/outbound/header/studentassociation');">Student Association</a></li>
+									<li><a href="http://www.oneonta.edu/development/huntunion/IGC/" onClick="javascript: pageTracker._trackPageview('/outbound/header/greeklife');">Greek Life</a></li>
+									<li><a href="http://www.oneonta.edu/development/reslife/" onclick="javascript: pageTracker._trackPageview('/outbound/header/reslife');">Residence Life &amp; Housing</a></li>
+									<li><a href="http://www.oneonta.edu/dining/" onclick="javascript: pageTracker._trackPageview('/outbound/header/dining');">Dining</a></li>
+									<li><a href="http://www.oneontaathletics.com/" onclick="javascript: pageTracker._trackPageview('/outbound/header/athletics');">Athletics</a></li>
+									<li><a href="http://www.oneonta.edu/academics/csrc/" onclick="javascript: pageTracker._trackPageview('/outbound/header/volunteering');">Volunteering</a></li>
+								</ul>
+					 		</li>
+					 		<li class="separator">/</li>
+					 		<li class="menu last"><a title="Student Life" href="http://www.oneonta.edu/home/news-events.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/newsandevents');">News &amp; Events</a>
+					 			<ul class="dropdown">
+								  <li><a href="http://aristotle.oneonta.edu/wordpress/news/" onClick="javascript: pageTracker._trackPageview('/outbound/header/news');">News</a></li>
+									<li><a href="http://www.oneonta.edu/home/events.asp" onClick="javascript: pageTracker._trackPageview('/outbound/header/events');">Events Calendar</a></li>
+								</ul>
+					 		</li>
+						</ul>
+					</div><!--[if !IE]> end secondary-links <![endif]-->
+        		</div><!--[if !IE]> /#navigation <![endif]-->
+			</div><!--[if !IE]> end header-content-wrapper <![endif]-->
+    	</div><!--[if !IE]> /#header <![endif]-->
+
+<table width="980" border="0" cellpadding="10" cellspacing="0" bordercolor="#111111" bgcolor="#FFFFFF" style="border-collapse: collapse">
+    <tr>
+      <td width="181" valign="top" bgcolor="#f3efec">	  
+      </td>
+      <td valign="top">
+        <table width="98%" height="176" border="0" align="right" cellpadding="0" cellspacing="0" bordercolor="#111111" style="border-collapse: collapse">
+        
+        <tr>
+          <td><!-- end breadcrumbs --></td>
+          </tr>
+        <tr>
+          <td align="center" valign="top">
+            <div class="content-left">
+              <div class="clear">&nbsp;</div>
+  <p><br>
+    <B>We are sorry, the page you requested cannot be found.<br>
+    <br>
+To search for your page try our Search function above.</B></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><br>
+  </p>
+            </div>
+          </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+</table><div>
+<div id="footer-wrapper">
+			<div id="footer">
+					<div class="footer-left">
+  						<div class="content">
+    						<ul>
+								<li><a href="mailto:webmaster@oneonta.edu" onClick="javascript: pageTracker._trackPageview('/outbound/footer/contactus');">Contact Us</a></li>
+								<li class="separator">|</li>
+								<li><a href="http://www.oneonta.edu/admin/humres/Employment_Opp/Position_openings.asp" onClick="javascript: pageTracker._trackPageview('/outbound/footer/employment');">Employment</a></li>
+								<li class="separator">|</li>
+								<li><a href="http://www.oneonta.edu/home/diversity.asp" onClick="javascript: pageTracker._trackPageview('/outbound/footer/diversity');">Diversity</a></li>
+								<li class="separator">|</li>
+								<li><a href="http://policies.oneonta.edu/PDF/Web%20Privacy%20Policy-37-20091209.pdf"  onClick="javascript: pageTracker._trackPageview('/outbound/footer/privacy');">Privacy</a></li>
+							</ul>
+							<p>Copyright &copy; 2012 by SUNY Oneonta</p>
+							<ul>
+								<li>108 Ravine Parkway</li>
+								<li class="separator">|</li>
+								<li>Oneonta, NY 13820</li>
+								<li class="separator">|</li>
+								<li>607-436-3500</li>
+							</ul>
+  						</div><!-- end content -->
+					</div><!-- end footer-left -->
+					<div class="footer-center">
+  						<div class="content">
+   						  <p><a href="http://www.oneonta.edu/general/social" onClick="javascript: pageTracker._trackPageview('/outbound/footer/connectwithoneonta');">Connect With Oneonta:</a></p>
+    						<a class="thumbnail" href="http://www.facebook.com/SUNYOneonta" target="_blank" onClick="javascript: pageTracker._trackPageview('/outbound/footer/facebook');"><img src="http://www.oneonta.edu/home/images/facebook-icon.png" alt="Facebook" title="Facebook"  class="image image-thumbnail " width="24" height="24" /></a>
+							<a class="thumbnail" href="http://www.youtube.com/user/SUNYOneonta" target="_blank" onClick="javascript: pageTracker._trackPageview('/outbound/footer/youtube');"><img src="http://www.oneonta.edu/home/images/youtube-icon.png" alt="YouTube" title="YouTube"  class="image image-thumbnail " width="24" height="24" /></a>
+							<a class="thumbnail" href="http://www.linkedin.com/pub/suny-oneonta-alumni-association/37/48b/588" target="_blank" onClick="javascript: pageTracker._trackPageview('/outbound/footer/linkedin');"><img src="http://www.oneonta.edu/home/images/linkedin-icon.png" alt="LinkedIn" title="LinkedIn"  class="image image-thumbnail " width="24" height="24" /></a> 
+                            <a class="thumbnail" href="https://market.android.com/details?id=com.barz.tourguide.sunyoneonta" target="_blank" onclick="javascript: pageTracker._trackPageview('/outbound/footer/App-AndroidMarket');"><img src="http://www.oneonta.edu/home/images/android_market_icon.png" alt="Android Market" title="Android Market"  class="image image-thumbnail " width="24" height="24" /></a>
+                            <a class="thumbnail" href="http://itunes.apple.com/us/app/suny-oneonta-campus-tour/id481668487?mt=8" target="_blank" onclick="javascript: pageTracker._trackPageview('/outbound/footer/App-AppStore');"><img src="http://www.oneonta.edu/home/images/iphone_icon.png" alt="iPhone App Store" title="iPhone App Store"  class="image image-thumbnail " width="24" height="24" /></a>
+                          <div class="clear">&nbsp;</div>
+						</div><!-- end content -->
+					</div><!-- end footer-center -->
+					<div class="footer-right">
+  						<div class="content">
+    						<p><a href="http://www.suny.edu/" onClick="javascript: pageTracker._trackPageview('/outbound/footer/SUNY');"><img src="http://www.oneonta.edu/home/images/powerofsuny.png" alt="Power of SUNY" title="Power of SUNY"  class="image image-_original " width="126" height="55" /></a></p>
+							<div class="clear">&nbsp;</div>
+						</div><!-- end content -->
+					</div><!-- end footer-right -->	
+      			</div><!-- /#footer -->
+</div><!-- end footer-wrapper -->
+</div>
+</div><!-- end main-wrapper -->
+</div><!-- end page-wrapper -->
+</body>
+</html>
